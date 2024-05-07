@@ -13,4 +13,8 @@ public class Prdoduto
     public TipoProduto TipoProduto { get; set; }
     public bool Ativo { get; set; }
 }
+
+    public class TipoProduto
+    {
+    }
 }

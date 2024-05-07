@@ -17,5 +17,9 @@ namespace CursoEFCore.Domain
         public StatusPedido Status { get; set; }
         public string Observacao { get; set; }
         public ICollection<PedidoItem> Itens { get; set; }
+
+        public class StatusPedido
+        {
+        }
     }
 }
